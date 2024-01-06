@@ -24,9 +24,13 @@ body {
   min-width: 100%;
 }
 
-.container {
+.head-container {
   margin: 0 auto;
   width: 90%;
+}
+
+.foot-container {
+  
 }
 
 header {
