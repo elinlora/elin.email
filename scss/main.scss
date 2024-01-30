@@ -60,12 +60,20 @@ header {
     @media screen and (min-width: 62em) {
       display: unset;
     }
+    // Desktop Viewport
+    @media screen and (min-width: 84em) {
+
+    }
   }
   .hamburger {
     cursor: pointer;
     // Tablet Viewport
     @media screen and (min-width: 62em) {
       display: none;
+    }
+    // Desktop Viewport
+    @media screen and (min-width: 84em) {
+      
     }
     .bar {
       display: block;
