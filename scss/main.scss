@@ -104,9 +104,10 @@ header {
     color: cornflowerblue;
     font-size: 2rem;
   }
-  nav ul {
-    display: flex;
-    gap: 1em;
+  nav {
+    a {
+      margin-left: 3rem;
+    }
   }
 }
 

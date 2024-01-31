@@ -97,9 +97,8 @@ header .head-logo {
   color: cornflowerblue;
   font-size: 2rem;
 }
-header nav ul {
-  display: flex;
-  gap: 1em;
+header nav a {
+  margin-left: 3rem;
 }
 
 main .hero {
