@@ -93,7 +93,24 @@ header .container {
   display: flex;
   justify-content: space-between;
 }
+header .head-logo {
+  color: cornflowerblue;
+  font-size: 2rem;
+}
 header nav ul {
   display: flex;
   gap: 1em;
+}
+
+main .hero {
+  height: 100vh;
+  padding: 3rem 0;
+  background-color: grey;
+  display: grid;
+  place-items: center;
+}
+main .hero .hero-card {
+  background-color: #fff;
+  border-radius: 0.3rem;
+  padding: 3rem;
 }/*# sourceMappingURL=main.css.map */

@@ -100,8 +100,28 @@ header {
     display: flex;
     justify-content: space-between;
   }
+  .head-logo {
+    color: cornflowerblue;
+    font-size: 2rem;
+  }
   nav ul {
     display: flex;
     gap: 1em;
+  }
+}
+
+main {
+
+  .hero {
+    height: 100vh;
+    padding: 3rem 0;
+    background-color: grey;
+    display: grid;
+    place-items: center;
+    .hero-card {
+      background-color: #fff;
+      border-radius: .3rem;
+      padding: 3rem;
+    }
   }
 }
