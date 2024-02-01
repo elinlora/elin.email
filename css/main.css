@@ -39,10 +39,6 @@ body {
   color: cornflowerblue;
 }
 
-header {
-  background-color: var(--clr-offwhite);
-}
-
 .c-margin {
   margin: 0 auto;
 }
@@ -52,30 +48,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.head-container nav {
-  display: none;
-}
-@media screen and (min-width: 62em) {
-  .head-container nav {
-    display: unset;
-  }
-}
-.head-container .hamburger {
-  cursor: pointer;
-}
-@media screen and (min-width: 62em) {
-  .head-container .hamburger {
-    display: none;
-  }
-}
-.head-container .hamburger .bar {
-  display: block;
-  margin: 5px auto;
-  height: 3px;
-  width: 21px;
-  border-radius: 3px;
-  background-color: #000;
 }
 
 .main-container {
@@ -87,6 +59,7 @@ header {
 }
 
 header {
+  background-color: var(--clr-offwhite);
   padding: 1.2rem 0;
 }
 header .container {
@@ -100,11 +73,35 @@ header .head-logo {
 header .head-logo:hover {
   color: #fff;
 }
+header nav {
+  display: none;
+}
+@media screen and (min-width: 62em) {
+  header nav {
+    display: unset;
+  }
+}
 header nav a {
   margin-left: 3rem;
 }
 header nav a:hover {
   color: var(--clr-offwhite);
+}
+header .hamburger {
+  cursor: pointer;
+}
+@media screen and (min-width: 62em) {
+  header .hamburger {
+    display: none;
+  }
+}
+header .hamburger .bar {
+  display: block;
+  margin: 5px auto;
+  height: 3px;
+  width: 21px;
+  border-radius: 3px;
+  background-color: #000;
 }
 
 main .hero {
