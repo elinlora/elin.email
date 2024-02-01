@@ -97,6 +97,9 @@ header .head-logo {
   color: cornflowerblue;
   font-size: 2rem;
 }
+header .head-logo:hover {
+  color: #fff;
+}
 header nav a {
   margin-left: 3rem;
 }
