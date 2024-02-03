@@ -78,11 +78,9 @@ header nav {
 }
 @media screen and (min-width: 62em) {
   header nav {
-    display: unset;
+    display: flex;
+    gap: 2rem;
   }
-}
-header nav a {
-  margin-left: 3rem;
 }
 header nav a:hover {
   color: var(--clr-offwhite);
