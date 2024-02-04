@@ -127,4 +127,22 @@ main {
       padding: 3rem;
     }
   }
+  .skills {
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }  
+}
+
+// *****FOOTER*****
+
+footer {
+  background-color: #000;
+  padding: 2rem 0;
+  .foot-container {
+    display: grid;
+    place-items: center;
+  }
 }

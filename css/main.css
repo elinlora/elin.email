@@ -113,4 +113,20 @@ main .hero .hero-card {
   background-color: #fff;
   border-radius: 0.3rem;
   padding: 3rem;
+}
+main .skills {
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+footer {
+  background-color: #000;
+  padding: 2rem 0;
+}
+footer .foot-container {
+  display: grid;
+  place-items: center;
 }/*# sourceMappingURL=main.css.map */
