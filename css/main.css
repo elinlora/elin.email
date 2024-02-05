@@ -119,6 +119,11 @@ main .hero .hero-card .hero-btns {
   justify-content: center;
   gap: 1rem;
 }
+main .hero .hero-card .main-socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
 main .skills {
   padding: 3rem 0;
   display: flex;
