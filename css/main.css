@@ -114,6 +114,11 @@ main .hero .hero-card {
   border-radius: 0.3rem;
   padding: 3rem;
 }
+main .hero .hero-card .hero-btns {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
 main .skills {
   padding: 3rem 0;
   display: flex;
