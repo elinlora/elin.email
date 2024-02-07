@@ -129,6 +129,15 @@ main .hero .hero-card .main-socials {
   justify-content: center;
   gap: 1rem;
 }
+main .hero .hero-card .main-socials a {
+  color: #000;
+}
+main .hero .hero-card .main-socials a :hover {
+  opacity: 80%;
+}
+main .hero .hero-card .main-socials a i {
+  font-size: 2rem;
+}
 main .skills {
   padding: 3rem 0;
   display: flex;

@@ -139,6 +139,15 @@ main {
         display: flex;
         justify-content: center;
         gap: 1rem;
+        a {
+          color: #000;
+          :hover {
+            opacity: 80%;
+          }
+          i {
+            font-size: 2rem;
+          }
+        }
       }
     }
   }
