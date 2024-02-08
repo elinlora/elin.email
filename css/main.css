@@ -115,6 +115,7 @@ main .hero .hero-card {
   padding: 3rem;
 }
 main .hero .hero-card .hero-btns {
+  margin: 2rem 0;
   display: flex;
   justify-content: center;
   gap: 1rem;
