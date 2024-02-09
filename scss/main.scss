@@ -134,6 +134,9 @@ main {
           padding: .5rem;
           border: .1rem #000 solid;
           border-radius: .3rem;
+          :hover {
+            opacity: 80%;
+          }
         }
       }
       .main-socials {
