@@ -114,6 +114,12 @@ main .hero .hero-card {
   border-radius: 0.3rem;
   padding: 3rem;
 }
+main .hero .hero-card .hero-body {
+  margin: 2rem 0;
+}
+main .hero .hero-card .hero-body p:first-of-type {
+  margin-bottom: 1rem;
+}
 main .hero .hero-card .hero-btns {
   margin: 2rem 0;
   display: flex;

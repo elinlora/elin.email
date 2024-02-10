@@ -125,6 +125,12 @@ main {
       background-color: #fff;
       border-radius: .3rem;
       padding: 3rem;
+      .hero-body {
+        margin: 2rem 0;
+        p:first-of-type {
+          margin-bottom: 1rem;
+        }
+      }
       .hero-btns {
         margin: 2rem 0;
         display: flex;
