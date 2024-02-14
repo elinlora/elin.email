@@ -167,6 +167,9 @@ main {
   .skills {
     padding: 3rem 0;
     display: flex;
+    flex-wrap: wrap;
+    width: 21rem;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
