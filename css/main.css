@@ -161,6 +161,9 @@ main .skills {
   align-items: center;
   gap: 1.5rem;
 }
+main .projects {
+  padding: 2rem 0;
+}
 main .projects .promotional,
 main .projects .newsletter,
 main .projects .transactional {
