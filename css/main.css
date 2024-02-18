@@ -108,7 +108,7 @@ header .hamburger .bar {
 main .hero {
   height: 100vh;
   padding: 3rem 0;
-  background-color: grey;
+  background-color: cornflowerblue;
   display: grid;
   place-items: center;
 }
