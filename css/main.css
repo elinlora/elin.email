@@ -85,6 +85,11 @@ header nav {
     gap: 2rem;
   }
 }
+header nav a {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+}
 header nav a:hover {
   color: var(--clr-offwhite);
 }
